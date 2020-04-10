@@ -5,7 +5,7 @@ export const Task = ({ task }) => {
   const { removeTask, findItem } = useContext(TaskListContext);
   return (
     <li className="list-item">
-      <span>{task.task} </span>
+      <span>{task.title} </span>
       <div>
         <button
           className="btn-delete task-btn"
