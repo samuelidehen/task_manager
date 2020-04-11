@@ -1,9 +1,9 @@
 import React from "react";
 import TaskListContextProvider from "./context/TaskListContext";
 import "./App.css";
-import TaskList from "./components/TaskList";
+import TaskList from "./components/Task/TaskList";
 import Header from "./components/layout/Header";
-import TaskForm from "./components/TaskForm";
+import TaskForm from "./components/Task/TaskForm";
 
 function App() {
   return (
